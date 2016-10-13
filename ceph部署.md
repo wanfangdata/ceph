@@ -49,7 +49,7 @@
 
         sed -i 's/$releasever/7.2.1511/g' /etc/yum.repos.d/CentOS-Base.repo
 
-8. 设置环境变量，让ceph-deploy使用国内源（这里使用的163云）：
+8. 设置环境变量，让ceph-deploy使用国内源（这里使用的163源）：
 
 		export CEPH_DEPLOY_REPO_URL=http://mirrors.163.com/ceph/rpm-jewel/el7
 		export CEPH_DEPLOY_GPG_URL=http://mirrors.163.com/ceph/keys/release.asc
