@@ -51,8 +51,8 @@
 
 8. 设置环境变量，让ceph-deploy使用国内源（这里使用的163源）：
 
-		export CEPH_DEPLOY_REPO_URL=http://mirrors.163.com/ceph/rpm-jewel/el7
-		export CEPH_DEPLOY_GPG_URL=http://mirrors.163.com/ceph/keys/release.asc
+		export CEPH_DEPLOY_REPO_URL=http://mirrors.aliyun.com/ceph/rpm-jewel/el7
+		export CEPH_DEPLOY_GPG_URL=http://mirrors.aliyun.com/ceph/keys/release.asc
 
 9. 安装ntp服务：
 
